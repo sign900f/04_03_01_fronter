@@ -1,0 +1,198 @@
+/*---------------------------------------------------
+9: Variables & Common styling
+10: Layout / Grid
+11: Form styling
+12: Table styles
+13: Page specific styles
+1: header
+2: home
+3: burgermenu
+4: materialer
+5: opgaver
+6: skema
+7: chat
+8: footer
+---------------------------------------------------*/
+
+
+
+/*---------------------------------------------------
+9: Variables & Common styling
+---------------------------------------------------*/
+/*Variables*/
+:root {
+
+    --color-lyslilla: #69596A;
+    --color-moerklilla: #4E4150;
+    --color-laks: #EA847C;
+    --color-graa: #E4E4E4;
+    --color-hvid: #FFFDFD;
+}
+
+
+/*Common styling classes*/
+
+body {
+    width: 375px;
+    margin: 0;
+}
+
+
+.rounded {
+    border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+p,
+label,
+input {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+h1 {
+    color: var(--color-hvid);
+    font-size: 1rem;
+}
+
+
+/*---------------------------------------------------
+10: Layout / Grid
+---------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------
+11: Form styling
+---------------------------------------------------*/
+
+
+
+/*---------------------------------------------------
+12: Table styles
+---------------------------------------------------*/
+
+
+
+.overskrift {
+
+    width: 80%;
+    height: 3rem;
+    background-color: var(--color-moerklilla);
+    text-align: center;
+    flex-grow: ;
+
+    position: absolute;
+    left: 10%;
+    top: 11.6vw;
+
+
+}
+
+.skema_home {}
+
+.aflevering_home {}
+
+
+
+
+/*---------------------------------------------------
+13: Page specific styles
+---------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+1: Header
+---------------------------------------------------*/
+
+.container {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 6.5rem;
+    background-color: var(--color-lyslilla);
+    text-align: center;
+
+}
+
+
+
+.middle {
+    vertical-align: middle;
+    margin: 1.1rem
+}
+
+.kea_logo {
+    position: relative;
+    width: 14.5vw;
+    top: 3vw;
+}
+
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+/*---------------------------------------------------
+2: Home
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+3: Bugermenu
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+4: Materialer
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+5: Opgaver
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+6: Skema
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+7 : Chat
+---------------------------------------------------*/
+
+
+/*---------------------------------------------------
+8 : Footer
+---------------------------------------------------*/
